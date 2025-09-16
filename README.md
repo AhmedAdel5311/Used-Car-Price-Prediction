@@ -6,8 +6,11 @@ A machine learning project that predicts the estimated price of used cars based 
 This project uses XGBoost with preprocessing pipelines and hyperparameter tuning, and provides an interactive Streamlit web app for predictions.
 ## Project Structure
 ├── ML.py              # Training script (builds and saves the model)
+
 ├── app.py             # Streamlit app for predictions
+
 ├── used_car_price.csv # Dataset (not included in repo for size/privacy)
+
 ├── car_price_model.joblib # Saved trained model
 
 ## Features 
